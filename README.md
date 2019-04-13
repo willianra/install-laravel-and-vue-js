@@ -27,3 +27,22 @@ instalacion de lavel y vue js
  hacer una migracion para generar las tablas
  comando :php artisan migrate
     
+#como solucionar el error  despues de la migracion
+In Connection.php line 458:
+  SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes
+1.-buscar en documentacion index length mysql
+https://laravel.com/docs/5.6/migrations
+compiar este codigo dentro de app/providers/appServiceProvider
+ 
+ 2.-agregar el use debajo del usede service provier por defecto 
+ use Illuminate\Support\Facades\Schema;
+ luego
+ 3.-dentro de la funcion boot 
+   public function boot()
+    {
+        Schema::defaultStringLength(191);
+
+    }
+4 FINALMENTE EJECUTAR LA MIGRACION 
+   ojo si no migra alguna tabla se debe  borrar las tablas de las base de datos y ejercutar php artisan migrate 
+   
