@@ -45,4 +45,7 @@ compiar este codigo dentro de app/providers/appServiceProvider
     }
 4 FINALMENTE EJECUTAR LA MIGRACION 
    ojo si no migra alguna tabla se debe  borrar las tablas de las base de datos y ejercutar php artisan migrate 
+   como resutado debera crear las tablas en php myadmin  
+ #CREACION DE MODELOS
+1 .- php artisan make:model Categoria   /// con mayuscula al inicio
    
