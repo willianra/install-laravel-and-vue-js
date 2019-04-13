@@ -21,6 +21,8 @@ instalacion de lavel y vue js
   .env 
   db_conection:pgsql
   username:postgres
+  port:5432
+  password:123
  1.- una vez creada la tabla y configurada el gestor de db 
  hacer una migracion para generar las tablas
  comando :php artisan migrate
