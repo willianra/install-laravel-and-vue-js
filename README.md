@@ -14,7 +14,7 @@ instalacion de lavel y vue js
     c: xamp/htdocs/demo>npm install 
     c: xamp/htdocs/demo>npm run dev   // para crear los archivos mixing de css y js dentro de public
     
- #migraciones
+ #migraciones o crear una tabla por comando 
  php artisan make:migration create_nombre_table
  
  #configuracion con postgres 
@@ -38,6 +38,8 @@ compiar este codigo dentro de app/providers/appServiceProvider
  use Illuminate\Support\Facades\Schema;
  luego
  3.-dentro de la funcion boot 
+ instalacion de paginacion
+ use Illuminate\Support\Facades\DB;
    public function boot()
     {
         Schema::defaultStringLength(191);
