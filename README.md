@@ -50,4 +50,6 @@ compiar este codigo dentro de app/providers/appServiceProvider
    como resutado debera crear las tablas en php myadmin  
  #CREACION DE MODELOS
 1 .- php artisan make:model Categoria   /// con mayuscula al inicio
+5 CREANDO UN CRUD RELACIONAL 
+   1 MIGRACION:php artisan make:migration create_articulos_table
    
