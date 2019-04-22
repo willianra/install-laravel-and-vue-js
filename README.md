@@ -54,4 +54,7 @@ compiar este codigo dentro de app/providers/appServiceProvider
    1 MIGRACION:php artisan make:migration create_articulos_table
 6 instalacion de codigo de barras 
 https://github.com/lindell/vue-barcode
+# crud persona y tabla usuario 
+php artisan make:migration create_personas_table
+php artisan migrate
    
