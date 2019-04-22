@@ -57,4 +57,5 @@ https://github.com/lindell/vue-barcode
 # crud persona y tabla usuario 
 php artisan make:migration create_personas_table
 php artisan migrate
-   
+php artisan make:model Persona   //primera letra con mayuscula
+php artisan make:controller ClienteController
