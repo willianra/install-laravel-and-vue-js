@@ -59,3 +59,15 @@ php artisan make:migration create_personas_table
 php artisan migrate
 php artisan make:model Persona   //primera letra con mayuscula
 php artisan make:controller ClienteController
+# crud proveedores
+php artisan make:migration create_proveedores_table
+php artisan migrate 
+php artisan make:model Proveedor
+php artisan make:controller ProveedorController
+# crud Roles
+php artisan make:migration create_roles_table
+php artisan make:model Rol
+php artisan make:controller RolController
+# usuario
+php artisan migrate 
+php artisan make:controller UserController
