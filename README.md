@@ -71,3 +71,8 @@ php artisan make:controller RolController
 # usuario
 php artisan migrate 
 php artisan make:controller UserController
+# autorizacion
+php artisan make:auth   //crea un scaffol de autentificacion
+
+# para ver las rutas 
+php artisan route:list
