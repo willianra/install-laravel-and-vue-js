@@ -76,3 +76,7 @@ php artisan make:auth   //crea un scaffol de autentificacion
 
 # para ver las rutas 
 php artisan route:list
+# middleware
+php artisan make:middleware Administrador
+php artisan make:middleware Vendedor
+php artisan make:middleware Almacenero
