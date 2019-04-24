@@ -85,3 +85,6 @@ primero crear las migraciones
 php artisan make:migration create_ingresos_table
 php artisan make:migration create_detalle_ingresos_table
 php artisan make:model Ingreso
+# componente vue select 
+npm install vue-select
+https://vue-select.org/
