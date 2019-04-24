@@ -80,3 +80,7 @@ php artisan route:list
 php artisan make:middleware Administrador
 php artisan make:middleware Vendedor
 php artisan make:middleware Almacenero
+# ingresos y detalle 
+primero crear las migraciones 
+php artisan make:migration create_ingresos_table
+php artisan make:migration create_detalle_ingresos_table
