@@ -96,3 +96,6 @@ Barryvdh\DomPDF\ServiceProvider::class,
 luego agregar la fachada en los alias
 'PDF' => Barryvdh\DomPDF\Facade::class,
 
+# para cambiar zona horaria
+	America/La_Paz
+   agregar eso dentro de app.php timezone
