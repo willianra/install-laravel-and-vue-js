@@ -88,3 +88,11 @@ php artisan make:model Ingreso
 # componente vue select 
 npm install vue-select
 https://vue-select.org/
+# reportes con dompdf
+https://github.com/barryvdh/laravel-dompdf
+composer require barryvdh/laravel-dompdf
+agregar  el proveedor en la carpeta config/app.php
+Barryvdh\DomPDF\ServiceProvider::class,
+luego agregar la fachada en los alias
+'PDF' => Barryvdh\DomPDF\Facade::class,
+
