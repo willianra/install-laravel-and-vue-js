@@ -99,3 +99,19 @@ luego agregar la fachada en los alias
 # para cambiar zona horaria
 	America/La_Paz
    agregar eso dentro de app.php timezone
+   
+# crear crud completo 
+crear modelo controlador y recursos necesario
+ php artisan make:model Estilos -mcr
+ luego 
+ llenar los campos en el archivo de la migracion 
+ una vez llenado 
+ ejecutar :php artisan migrate
+ luego verificamos en la base de datos  la tabla estilo
+ 
+ pugin para laravle 
+ intelligen for css 
+ boostrap v4  snippets
+ laravel 5 Snippets
+ PHP Intelephense
+
